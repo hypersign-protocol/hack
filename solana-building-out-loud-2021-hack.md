@@ -18,9 +18,9 @@
 
 ##  Abstract
 
-In recent few years, there have been a surge ([1]) in DApps in DeFi (decentralized finance) space and it may continue to grow rapidly in upcoming years. 
+In recent few years, there have been a surge [1] in DApps in DeFi (decentralized finance) space and it may continue to grow rapidly in upcoming years. 
 On one hand, this opens up huge opportunities for traders, investors and even software developers, on the other hand, it raises concerns about money laundering, terrorism financing etc to government and regulatory.
-European Commission proposed ([2]) to oblige companies (exchange, wallets etc) that facilitate transfers of cryptos to collect various personal data of senders and recipients. In short, the proposal talks about prohibiting *anonymous* crypto wallets. We should not be surprised other govt agencies of various countries following the same path. Whether this is a welcoming move by decentralised communities or not, that is a separate discussion, since it violates one of the principles of blockchain which is *Anonymity*, but we are clearly getting the hint that the future of Defi can not be fully anonymous - it has to have real-world *identities* of users associates with their wallets. However, the challenge is, how can a smart contract verify an identity of a user which is present in systems outside of the blockchain. 
+European Commission proposed [2] to oblige companies (exchange, wallets etc) that facilitate transfers of cryptos to collect various personal data of senders and recipients. In short, the proposal talks about prohibiting *anonymous* crypto wallets. We should not be surprised other govt agencies of various countries following the same path. Whether this is a welcoming move by decentralised communities or not, that is a separate discussion, since it violates one of the principles of blockchain which is *Anonymity*, but we are clearly getting the hint that the future of Defi can not be fully anonymous - it has to have real-world *identities* of users associates with their wallets. However, the challenge is, how can a smart contract verify an identity of a user which is present in systems outside of the blockchain. 
 
 
 ## References
