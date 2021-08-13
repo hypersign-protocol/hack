@@ -16,7 +16,7 @@
 - September 3, 2021: Submission Last Date
 - September 10, 2021: Result
 
-##  Problem Statement
+##  Abstract
 
 In recent few years, there have been a surge ([1]) in DApps in DeFi (decentralized finance) space and it may continue to grow rapidly in upcoming years. 
 On one hand, this opens up huge opportunities for traders, investors and even software developers, on the other hand, it raises concerns about money laundering, terrorism financing etc to government and regulatory.
@@ -25,6 +25,6 @@ European Commission proposed ([2]) to oblige companies (exchange, wallets etc) t
 
 ## References
 
-- [1]: https://www.circle.com/blog/the-growth-of-defi 
-- [2]: https://ec.europa.eu/finance/docs/law/210720-proposal-funds-transfers_en.pdf
+- [1] https://www.circle.com/blog/the-growth-of-defi 
+- [2] https://ec.europa.eu/finance/docs/law/210720-proposal-funds-transfers_en.pdf
 
