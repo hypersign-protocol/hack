@@ -24,6 +24,19 @@ On one hand, this opens up huge opportunities for traders, investors and even so
 In this document, we propose a solution to this problem using Hypersign [3] protocol. Hypersign is a cross-chain decentralised identity and access management infrastructure for the enterprise. Built on Self Sovereign Identity (SSI) [4] standards, the verifiable credential [5] issued on Hypersign ecosystem can be verified by any smart contract code. Any centralised issuer can connect with Hypersign ecosystem to issue verifiable credential to their users. The user can then use that credential to avail services from a smart contract deployed on any blockchain. We will try to solve this problem for one particular use case and understand how it works. Finally, we will evaluate the solution on few important metrices like feasibility, privacy, data-protection and security. 
 
 
+## Introduction 
+
+### Problem Statement
+
+
+## Current Work
+
+## Proposed Solution
+
+## Demo
+
+## Evaluation 
+
 ## References
 
 - [1] https://www.circle.com/blog/the-growth-of-defi 
