@@ -33,6 +33,16 @@ In this document, we propose a solution to this problem using Hypersign [3] prot
 
 ## Proposed Solution
 
+
+## Evaluation Metrics
+
+### Trust
+
+### Privacy & Data Protection
+
+### Security
+
+
 ## Demo
 
 ![image](https://user-images.githubusercontent.com/15328561/131084517-c31cd2af-8d1c-4b76-bcb0-69b2d4b592d8.png)
@@ -47,7 +57,7 @@ In this document, we propose a solution to this problem using Hypersign [3] prot
   * This way a user associates his `Cred profile` with the public key he owns for Solano blockchain.
 * **Step 6**: Now that user has a verifiable credential, he can use this credential to avail  services from DApps (for variaous use cases like insurance, DEX etc ) built on Solano blockchain ecosystem.
       
-## Evaluation Metrics
+
 
 ## References
 
