@@ -35,7 +35,8 @@ In this document, we propose a solution to this problem using Hypersign [3] prot
 
 ## Demo
 
-![image](https://user-images.githubusercontent.com/15328561/131083632-1d25d673-8b66-43c2-95bb-8e1b724631de.png)
+![image](https://user-images.githubusercontent.com/15328561/131084517-c31cd2af-8d1c-4b76-bcb0-69b2d4b592d8.png)
+
 
 
 ## Evaluation Metrics
