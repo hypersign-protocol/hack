@@ -37,8 +37,16 @@ In this document, we propose a solution to this problem using Hypersign [3] prot
 
 ![image](https://user-images.githubusercontent.com/15328561/131084517-c31cd2af-8d1c-4b76-bcb0-69b2d4b592d8.png)
 
-
-
+* Step 1: A user comes to the `HyperFyre` platform. 
+* Step 2 & 3:  User authorizes `HyperFyre` to fetch `Cred Profile` via `Cred APIs`.
+* Step 4: User connects `Solano Wallet` to fetch Solano public key  (or blockchian address).
+* Step 5: Once dones, the `HyperFyre` platform verifies all details and issues a cryptographically signed document (i.e. verifiable credential) to the user. 
+  * The user keeps the verifiable credentials in the device he/she holds.
+  * The verifiable credenital is the proof that the user has submitted his detials and has been verified. 
+  * The credential contains the `Cred profile` data as well as public key. 
+  * This way a user associates his `Cred profile` with the public key he owns for Solano blockchain.
+* Step 6: Now that user has a verifiable credential, he can use this credential to avail  services from DApps (for variaous use cases like insurance, DEX etc ) built on Solano blockchain ecosystem.
+      
 ## Evaluation Metrics
 
 ## References
