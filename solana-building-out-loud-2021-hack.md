@@ -40,7 +40,7 @@ In this document, we propose a solution to this problem using Hypersign [3] prot
 * Step 1: A user comes to the `HyperFyre` platform. 
 * Step 2 & 3:  User authorizes `HyperFyre` to fetch `Cred Profile` via `Cred APIs`.
 * Step 4: User connects `Solano Wallet` to fetch Solano public key  (or blockchian address).
-* Step 5: Once dones, the `HyperFyre` platform verifies all details and issues a cryptographically signed document (i.e. verifiable credential) to the user. 
+* Step 5: Once done, the `HyperFyre` platform verifies all details and issues a cryptographically signed document (i.e. verifiable credential) to the user. 
   * The user keeps the verifiable credentials in the device he/she holds.
   * The verifiable credenital is the proof that the user has submitted his detials and has been verified. 
   * The credential contains the `Cred profile` data as well as public key. 
