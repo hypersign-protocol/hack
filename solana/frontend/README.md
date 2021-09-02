@@ -5,4 +5,4 @@ mv .env.staging .env
 npm run build && npm run dev
 ```
 
-http://localhost:9001/studio/login
+http://localhost:9001/app/login
