@@ -293,9 +293,9 @@ h5 span {
         <p class="mt-4">Instructions:</p>
         <ol class="px-3">
           <li>Login with the Hypersign</li>
-          <li>Follow the steps provided in the next screens</li>
-          <li>Submit additional information as requested</li>
-          <li>Wait for winners announcement.</li>
+          <li>Authorize your Cred Profile</li>
+          <li>Attach your Solana Wallet and submit your details</li>
+          <li>Receive your credential in your wallet</li>
         </ol>
 
         <div class="hypersign-logo-footer">

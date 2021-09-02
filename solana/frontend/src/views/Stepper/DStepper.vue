@@ -133,7 +133,7 @@
             <i class="fas fa-angle-double-left"></i> Back
           </b-button>
 
-          <b-button
+          <!-- <b-button
             v-if="step < steps.length - 1"
             variant="dark"
             class="ml-2 next-btn"
@@ -144,9 +144,13 @@
             :disabled="this.btnBlocked"
           >
             {{ step + 1 == 3 ? "Submit" : "Next" }}
-          </b-button>
+          </b-button> -->
 
-          <b-button v-if="this.step==0" @click="confirmData()">
+          <b-button 
+            :style="
+              `background-color: ${projectDetails.themeColor}; color: ${projectDetails.fontColor} !important; border-color:${projectDetails.fontColor}`
+            "
+          v-if="this.step==0" @click="confirmData()">
             Submit
           </b-button>
 

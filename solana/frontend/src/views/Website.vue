@@ -16,7 +16,7 @@
         </div>
         <div class="row content">
             <div class="col-md-12" style="">
-                <h1 class="bold">FIDATO</h1>
+                <h1 class="bold">HYPERFYRE</h1>
                 <div  class="typewriter"> 
                 <h4>Build Resilient and Dependable Communities, Securely</h4>
                 </div>
