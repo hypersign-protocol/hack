@@ -1,0 +1,20 @@
+[
+    {
+        "planName": "Standard",
+        "description": "For individual influencer",
+        "totalNoOfRequests": 3000,
+        "price": 100
+    },
+    {
+        "planName": "Professional",
+        "description": "For small and medium enterprise",
+        "totalNoOfRequests": 15000,
+        "price": 500
+    },
+    {
+        "planName": "Freemium",
+        "description": "For trial",
+        "totalNoOfRequests": 500,
+        "price": 0
+    }
+]

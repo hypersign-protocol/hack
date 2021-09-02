@@ -1,0 +1,7 @@
+NODE_ENV=developement
+VUE_APP_MOBILEWALLET_URL=hypersign
+VUE_APP_SERVER_WEBSOCKET_URL=wss://ssi.hypermine.in/whitelistws/
+VUE_APP_STUDIO_SERVER_BASE_URL=https://ssi.hypermine.in/whitelist/
+VUE_APP_TITLE=Cred Credential Issuer
+VUE_APP_VERSION=v0.0.1
+VUE_APP_WEBWALLET_URL=https://wallet.hypersign.id

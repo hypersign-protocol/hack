@@ -1,0 +1,83 @@
+{
+    "keys": {
+        "publicKey": {
+            "@context": "https://w3id.org/security/v2",
+            "id": "did:hs:4f12b8e3-9c05-48a6-853b-a27a839ee97f#z6MkwKEgNLdynkBdkcGa1aiNEYAuYY1uFcVHTfcnQdJfxPEA",
+            "type": "Ed25519VerificationKey2018",
+            "publicKeyBase58": "Hrydn6PYTChAe7RsL1kXPScuixk3qjEvmehraMLf3ASn"
+        },
+        "privateKeyBase58": "4QsDWe6aZXGoC1CpRptmUWkaASAUhj66LkEWeHfsYpRzK3SRuW2F3A9qNPyvwcEmhxGMC7s5Ds1kKQ31A7rd1S8r"
+    },
+    "schemaId": "sch_444fb51f-282b-4fec-90c4-e7e6052a2b26",
+    "networkUrl": "https://stage.hypermine.in/core/",
+    "mail": {
+        "host": "",
+        "port": 465,
+        "user": "",
+        "pass": "",
+        "name": ""
+    },
+    "jwt": {
+        "secret": "00c2c433-a077-4e68-b19c-1234f014a510",
+        "expiryTime": 120000
+    },
+    "appCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            {
+                "hsscheme": "https://stage.hypermine.in/core/api/v1/schema/sch_2bdcd8d6-0b58-49af-ae1e-e253738929b5"
+            },
+            {
+                "name": "hsscheme:name"
+            },
+            {
+                "did": "hsscheme:did"
+            },
+            {
+                "owner": "hsscheme:owner"
+            },
+            {
+                "schemaId": "hsscheme:schemaId"
+            },
+            {
+                "serviceEp": "hsscheme:serviceEp"
+            },
+            {
+                "subscriptionId": "hsscheme:subscriptionId"
+            },
+            {
+                "planId": "hsscheme:planId"
+            },
+            {
+                "planName": "hsscheme:planName"
+            }
+        ],
+        "id": "vc_d8d45577-fc03-4151-9eb9-018353851376",
+        "type": [
+            "VerifiableCredential",
+            "Hypersign Developer"
+        ],
+        "expirationDate": "2021-08-12T07:58:29.982Z",
+        "issuanceDate": "2021-06-13T07:58:30.006Z",
+        "issuer": "did:hs:4f12b8e3-9c05-48a6-853b-a27a839ee97f",
+        "credentialSubject": {
+            "name": "Hypersign Auth",
+            "did": "did:hs:4f12b8e3-9c05-48a6-853b-a27a839ee97f",
+            "owner": "did:hs:4f12b8e3-9c05-48a6-853b-a27a839ee97f",
+            "schemaId": "sch_444fb51f-282b-4fec-90c4-e7e6052a2b26",
+            "serviceEp": "https://192.168.251.72:6006/",
+            "subscriptionId": "dummy_id",
+            "planId": "dummy_id",
+            "planName": "dummy_id",
+            "id": "did:hs:4f12b8e3-9c05-48a6-853b-a27a839ee97f"
+        },
+        "proof": {
+            "type": "Ed25519Signature2018",
+            "created": "2021-06-13T07:58:30Z",
+            "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sQNSoqP3Izve_vnoxTOSLi6fWkHA7MV27WS1co10P6-aOzWDl0Xs_vmOdTxUInqhrDgy8tmR0w7nMhnT-HlzCA",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:hs:4f12b8e3-9c05-48a6-853b-a27a839ee97f#z6MkwKEgNLdynkBdkcGa1aiNEYAuYY1uFcVHTfcnQdJfxPEA"
+        }
+    },
+    "isSubcriptionEnabled": false
+}
