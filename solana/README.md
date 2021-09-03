@@ -44,6 +44,7 @@ But both of the above solutions expects user to only avail services from the sam
 
 We propose a solution to this problem using Hypersign Protocol [3] which is a cross chain identity verification protocol. A user sends claims to a trusted issuer, the issuer verifes these claims and issues him/her a verfiable credential. The user can then use this credential to avail service from any blockchain smart contract he wants.
 
+file:///tmp/hs-interoperability.png![image](https://user-images.githubusercontent.com/15328561/132031023-b0de370e-9a2e-4347-afe0-4ad6e00eac1a.png)
 
 
 ## Demo
