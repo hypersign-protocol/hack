@@ -28,11 +28,16 @@ In this document, we propose a solution to this problem using Hypersign [3] prot
 
 ### Problem Statement
 
-The blockchain based applications seems to be struggling for adoption in real world for various reasons. Applications built using smart contracts (also called DApps), which provides any services, has no way to verifiy real world identities and the reason being, those identities (or claims) do not exist on-chain.  They are issued by centralised issuers like goverments, banks etc and can not be verfied on chain since these contract can not interact with outside world. Integrating smart contracts with the real world organizations might be an important step in the adoption of blockchain technology. Moreover, the regulatory authories wants to track and trace these trasactions in order to stop activities like money laundering, terrorism financing etc. The European Commission proposed [2] to oblige companies (exchange, wallets etc) that facilitate transfers of cryptos to collect various personal data of senders and recipients. This means that they will not allow *anonymous* crypto wallets. These wallets must b
+The blockchain based applications seems to be struggling for adoption in real world for various reasons. Applications built using smart contracts (also called DApps), which provides any services, has no way to verifiy real world identities and the reason being, those identities (or claims) do not exist on-chain.  They are issued by centralised issuers like goverments, banks etc and can not be verfied on chain since these contract can not interact with outside world. Integrating smart contracts with the real world organizations might be an important step in the adoption of blockchain technology. Moreover, the regulatory authories wants to track and trace these trasactions in order to stop activities like money laundering, terrorism financing etc. The European Commission proposed [2] to oblige companies (exchange, wallets etc) that facilitate transfers of cryptos to collect various personal data of senders and recipients. This means that they will not allow *anonymous* crypto wallets. These wallets must be associated with real world identities but the problem is, how can a smart contract verify claims made in those identities  and provide services to users. It would both dangerous and in some cases illegal (according to EU GDPR rules for example) to record Identity Claims containing Personal Identifying Information (PII) on an immutable public ledger.
 
+good store these claims on chain becuase of obvious reason. In short we need a method for Off-chain verifiable claims, issued by any issuer and stored off chain, to be verifed On chain.
 
 ## Current Work
 
+Ethereum Improvement Proposal (EIP) - 1812 [6] talks about this problem. A verifiable claim built on EIP-712 [7] can now be verified on chain by Ethereum blockchain smart contract. 
+
+Civic Team [9] has previously proposed concept of *Identity Swap* [10] which talks about Automatic Money Market (AMM) dApp that demonstrates the concept of Decentralised Identity on the Solana SPL Token-Swap program where a  user can interact with a liquidity pool only if they are in possession of a valid identity account, certified by a trusted identity validator.
+  
 ## Proposed Solution
 
 ## Demo
@@ -58,4 +63,9 @@ The blockchain based applications seems to be struggling for adoption in real wo
 - [3] https://hypersign.id
 - [4] https://sovrin.org/faq/what-is-self-sovereign-identity/
 - [5] https://www.w3.org/TR/vc-data-model/
+- [6] https://eips.ethereum.org/EIPS/eip-1812
+- [7] 
+- [8] https://www.researchgate.net/publication/331701045_Verifiable_Anonymous_Identities_and_Access_Control_in_Permissioned_Blockchains
+- [9] https://www.civic.com/
+- [10] https://github.com/civicteam/identity-swap 
 
