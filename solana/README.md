@@ -62,17 +62,17 @@ Jhon has two problems here,
 
 ## Demo
 
-We build a tool called `HyperFyre` using `Hypersign protocol` where a user can athenticate his/her `CRED` as well as blockchain address (Solana in this case) in oder to generate a verifiable credential which can verified by on chain services on Solana blockchain network. 
+We build a tool called `HyperFyre` using `Hypersign protocol` where a user can athenticate his/her `CRED` profile as well as blockchain address (Solana in this case) in oder to generate a verifiable credential which can verified by on chain services on Solana blockchain network. 
 
 If we break the solutions we have to the following
 
 1. Jhon need to authorise his CRED profile and Solana wallet address to HyperFyre. The HyperFyre will verify those detials and issues him the verifiable credential. This verifiable credential can be stored in the device of his choice.
 2. Once the credential is issued, Jhon can then use that credential to avail any DeFi service (like loan, exhange etc) from dApps.
 
-### Part 1: Generating CRED credential
-
 
 ![image](https://user-images.githubusercontent.com/15328561/131084517-c31cd2af-8d1c-4b76-bcb0-69b2d4b592d8.png)
+
+### Part 1: Generating CRED credential
 
 * **Step 1**: A user comes to the `HyperFyre` platform. 
 * **Step 2 & 3**:  User authorizes `HyperFyre` to fetch `Cred Profile` via `Cred APIs`.
