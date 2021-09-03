@@ -25,7 +25,7 @@ Ethereum Improvement Proposal (EIP) - 1812 [6] talks about this problem. A verif
 
 Civic Team [9] has previously proposed concept of *Identity Swap* [10] which talks about Automatic Money Market (AMM) dApp that demonstrates the concept of Decentralised Identity on the Solana SPL Token-Swap program where a  user can interact with a liquidity pool only if they are in possession of a valid identity account, certified by a trusted identity validator.
 
-But both of the above solutions expects user to only avail services from the same blockchain network. 
+> But both of the above solutions expects user to only avail services from the same blockchain network. 
 
 ## Proposed Solution
 
