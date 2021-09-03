@@ -1,21 +1,5 @@
 # Solana Building Out Loud Hack 2021
 
-## Important Resources
-
-- [Hack home page](https://buildingoutloud.solana.com/)
-- [Apply on Devfolio](https://devfolio.co/building-out-loud/dashboard)
-- [Solana blockchain ecosystem resources](https://devfolio.notion.site/Resources-Building-Out-Loud-1cd9000a4c494733b73cd2691d7c90dc)
-- [Build using Cred](https://devfolio.notion.site/Resources-Building-Out-Loud-1cd9000a4c494733b73cd2691d7c90dc)
-
-
-## Important Dates
-
-- August 12, 2021: Registration
-- August 13, 2021: Hackathon Starting Date
-- August 16, 2021: Developer Happy Hours
-- September 3, 2021: Submission Last Date
-- September 10, 2021: Result
-
 ## Abstract
 
 In recent few years, there have been a surge [1] in DApps in DeFi (decentralized finance) space and it may continue to grow rapidly in upcoming years. 
