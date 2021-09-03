@@ -47,7 +47,30 @@ We propose a solution to this problem using Hypersign Protocol [3] which is a cr
 ![image](https://user-images.githubusercontent.com/15328561/132031023-b0de370e-9a2e-4347-afe0-4ad6e00eac1a.png)
 
 
+## Use Case
+
+For this hackathon, we took a simple use case where a user wants to 
+
+Meet Jhon!
+
+Jhon is a `CRED` user and have been paying credit card bills ontime and due to that he has earned decent amount of `CRED` score on this profile. Jhon got into some financial issue and is in need for taking loan. Instead of going to traditionaly loan institutions like centralise banks, he is looking for opporunities in *crypto* or *DeFi* space. He is not only exploring options for *non collatoral loan* but also looking for different products in different blockchian networks like Solana, Ethereum, Bitcoin etc.
+
+Jhon has two problems here, 
+
+1. First, dApps does not understand `CRED` score and hence they asks Jhon to put some tokens as a collatoral which does not makes sense to Jhon since he does not have crypto to put as collatoral. 
+2. Second, Jhon is not comforatble in sharing his KYC to different dApps from different blockchians.
+
 ## Demo
+
+We build a tool called `HyperFyre` using `Hypersign protocol` where a user can athenticate his/her `CRED` as well as blockchain address (Solana in this case) in oder to generate a verifiable credential which can verified by on chain services on Solana blockchain network. 
+
+If we break the solutions we have to the following
+
+1. Jhon need to authorise his CRED profile and Solana wallet address to HyperFyre. The HyperFyre will verify those detials and issues him the verifiable credential. This verifiable credential can be stored in the device of his choice.
+2. Once the credential is issued, Jhon can then use that credential to avail any DeFi service (like loan, exhange etc) from dApps.
+
+### Part 1: Generating CRED credential
+
 
 ![image](https://user-images.githubusercontent.com/15328561/131084517-c31cd2af-8d1c-4b76-bcb0-69b2d4b592d8.png)
 
@@ -59,9 +82,15 @@ We propose a solution to this problem using Hypersign Protocol [3] which is a cr
   * The verifiable credenital is the proof that the user has submitted his details and has been verified by the platform (the platform can not deny this fact, hence building the trust on the system). 
   * The credential contains the `Cred profile` data as well as public key. 
   * This way a user associates his `Cred profile` with the public key he owns for Solano blockchain.
+
+### Part 2: Using that credential
+
 * **Step 6**: Now that user has a verifiable credential, he can use this credential to avail  services from DApps (for variaous use cases like insurance, DEX etc ) built on Solano blockchain ecosystem.
 
-## Evaluation Metrics
+
+> For the purpose of this hackathon we could only finsh the first part of the solution.
+
+
 
 ## References
 
@@ -71,7 +100,6 @@ We propose a solution to this problem using Hypersign Protocol [3] which is a cr
 - [4] https://sovrin.org/faq/what-is-self-sovereign-identity/
 - [5] https://www.w3.org/TR/vc-data-model/
 - [6] https://eips.ethereum.org/EIPS/eip-1812
-- [7] 
 - [8] https://www.researchgate.net/publication/331701045_Verifiable_Anonymous_Identities_and_Access_Control_in_Permissioned_Blockchains
 - [9] https://www.civic.com/
 - [10] https://github.com/civicteam/identity-swap 
