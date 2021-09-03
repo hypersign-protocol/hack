@@ -79,7 +79,10 @@ If we break the solutions we have to the following
 
 ## Live Demo
 
-[Live demo url](https://hyperfyre.netlify.app/app/login/solana-hack-test001)
+- [Live demo url](https://hyperfyre.netlify.app/app/login/solana-hack-test001)
+- [Video: Part 1](https://www.loom.com/share/064043dfc0264fcaaa074e196e313a84)
+- [Video: Part 2](https://www.loom.com/share/104aad75864d4f09a01b2cd2b65760ad)
+
 
 ## References
 
