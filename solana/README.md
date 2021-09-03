@@ -49,7 +49,7 @@ We propose a solution to this problem using Hypersign Protocol [3] which is a cr
 
 ## Use Case
 
-For this hackathon, we took a simple use case where a user wants to 
+For this hackathon, we took a simple use case;
 
 Meet Jhon!
 
