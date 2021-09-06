@@ -6,7 +6,6 @@ import fetch from "node-fetch";
 Vue.use(Router);
 
 const router = new Router({
-  mode: "history",  
   routes: [
     {
       path: "/",
