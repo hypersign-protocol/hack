@@ -81,8 +81,8 @@ If we break the solutions we have to the following
 ## Live Demo
 
 - [Live demo url](https://hyperfyre.netlify.app/app/login/solana-hack-test001)
-- [Video: Part 1](https://www.loom.com/share/064043dfc0264fcaaa074e196e313a84)
-- [Video: Part 2](https://www.loom.com/share/104aad75864d4f09a01b2cd2b65760ad)
+- [Video: Part 1 - The problem statement and solution](https://www.loom.com/share/3e7a90a43c13447bb8f128a1dda1e160)
+- [Video: Part 2 - The Demo](https://www.loom.com/share/2470eee9216c4e00a0b6705b6a609000)
 
 
 ## References
