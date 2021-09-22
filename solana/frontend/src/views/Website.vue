@@ -21,7 +21,7 @@
                 <h4>Build Resilient and Dependable Communities, Securely</h4>
                 </div>
                 <button  class="btn btn-default btn-lg" style="margin-top:2%">
-                    <a href="/app" target="_blank">TRY THE APP NOW</a>
+                    <a href="#/app" target="_blank">TRY THE APP NOW</a>
                 </button>
             </div>
         </div>
